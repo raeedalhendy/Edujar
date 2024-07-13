@@ -1,0 +1,171 @@
+.container{
+    padding: 0 70px;
+    margin-top: 30px;
+
+}
+
+.container .con-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.container .con-title .arrows{
+    display: flex;
+    gap: 20px;
+}
+.container .con-title .arrows h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: #364C65;
+    color: white;
+    border-radius: 50%;
+}
+.container .con-title .text h1{
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 3.2rem;
+    color: #ffff;
+}
+.container .con-title .text p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #D9ECFF;
+}
+
+.container-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    justify-content: center;
+    
+    gap: 20px;
+    margin-top: 20px;
+}
+.container-card  .card{
+    height: 380px;
+    background-color: #3D4E64;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px; 
+    padding: 0 20px;
+}
+.container-card .head-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.container-card .head-card .top-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container-card .head-card .top-card h6{
+    font-size: 16px;
+    color: #D9ECFF;
+    font-weight: 500;
+    line-height: 18px;
+}
+.container-card .head-card  h5{
+    width: 98px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.container-card  .card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.container-card  .card-bottom button{
+    width: 135px;
+    height: 36px;
+    background-color: #21B573;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.container-card .title{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border-bottom: 1px solid white;
+}
+.container-card .title h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #D9ECFF;
+}
+.container-card .title p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7B92AC;
+}
+
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn2 button{
+    width: 120px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: #D9ECFF;
+    background-color: #364C65;
+    cursor: pointer;
+}
+@media (max-width:786px){
+    .container{
+        padding:  0 20px;
+        margin: 0 auto;
+    }
+    .container .con-title .arrows{
+        display: none;
+    }
+    .container-card{
+        
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        
+    }
+    .container .con-title .text h1 {
+        font-size: 2rem;
+    }
+    .container .con-title .text p{
+        font-size: 1rem;
+    }
+    
+    .container-card .title h1{
+        font-size: 20px;
+    }
+    .card{
+        width: 30%;
+    }
+}
+@media (max-width:920px){
+    .card{
+        width: 100%;
+    }
+}

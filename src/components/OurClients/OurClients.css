@@ -1,0 +1,54 @@
+.ContainerOurClients{
+    background: linear-gradient(150deg  ,#3e4d5e5e ,#21b57231 , #0a121f );
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+
+}
+
+.ContainerOurClients .content{
+    padding:  30px 60px;
+    text-align: center;
+    
+}
+.ContainerOurClients.content .detiles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ContainerOurClients .content .detiles h1{
+    font-weight: 700;
+    font-size: 3.1rem;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.ContainerOurClients .content .detiles p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #E1EFFF;
+    
+}
+.ContainerOurClients .content .detiles h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.ContainerOurClients .container-user .users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:786px ){
+.container-user .arrow{
+    display: none;
+}
+}

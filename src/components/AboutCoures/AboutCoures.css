@@ -1,0 +1,63 @@
+.AboutCoures{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+.AboutCoures .rate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:400px ;
+    gap: 10px;
+}
+.AboutCoures .rate h1{
+    color: #D9ECFF;
+}
+.AboutCoures .contianer{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.AboutCoures .green{
+    background-color: #21B573;
+}
+.AboutCoures .rate-child{
+    display:flex ;
+    gap: 10px;
+}
+.AboutCoures .con-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 0;
+}
+.AboutCoures h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.AboutCoures p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #D9ECFF;
+}
+.AboutCoures .gray{
+    background-color: #354C66;
+}
+
+@media (max-width:786px){
+    .AboutCoures{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .AboutCoures .rate{
+        width: 250px;
+        padding:0 20px ;
+    }
+}

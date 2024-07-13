@@ -1,0 +1,119 @@
+.containe-questions{
+    display: flex;
+    padding: 0 40px;
+    padding-top: 30px;
+    gap: 50px;
+}
+
+.containe-questions .left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.containe-questions .left p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    color: #D9ECFF;
+    width: 60%;
+}
+.containe-questions .left h1{
+    font-weight: 700;
+    font-size: 3.1rem;
+    line-height: 70px;
+    color: #FFFFFF;
+} 
+.containe-questions .left .img{
+    margin: 0 auto;
+}
+.containe-questions .right{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.containe-questions .container-left .child {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+}
+.containe-questions .container-left .child button{
+    width: 190px;
+    height: 55px;
+    background-color: #FAB437;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.containe-questions .container-left{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+} 
+.containe-questions .container-right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.containe-questions .container-right .con-q{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.containe-questions .right h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D9ECFF;
+}
+.containe-questions .right p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #D9ECFF;
+}
+.containe-questions .right h3{
+    font-size:25px ;
+    color: #D9ECFF;
+    cursor: pointer;
+}
+.questions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+
+@media (max-width:786px){
+    .containe-questions{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .containe-questions .left .child{
+        margin: 0 auto;
+        align-items: center;
+    }
+    .containe-questions .left h1{
+        font-size: 2rem;
+        
+    }
+    
+    .containe-questions .left img{
+        width: 100%;
+    }
+    .questions{
+        gap: 30px;
+    }
+    .containe-questions .container-right{
+        gap: 0px;
+    }
+    .containe-questions .left p{
+        display: none;
+    }
+}

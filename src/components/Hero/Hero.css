@@ -1,0 +1,89 @@
+.hero  {
+    display: flex;
+    padding-top: 9rem;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+}
+.hero img{
+    width: 80%;
+    height: 80%;
+}
+.hero .title{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    
+}
+.hero .title h1 {
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto ;
+    font-size: 2.1rem;
+}
+.hero .title p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #D9ECFF;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero .title span{
+    color: #EFA02A;
+    border-bottom:4px solid #EFA02A;
+    border-radius: 25% 25% 50% 0%  ;
+} 
+.hero .inputbtn{
+    margin: 0 auto;
+    
+}
+.hero input{
+    background-color: #3D4E64;
+    border: none;
+    width: 400px;
+    height: 44px;
+    border-radius: 20px;
+    position: relative;
+    padding: 0 20px;
+    outline: none;
+    
+}
+.hero .inputbtn button{
+    background-color: #FAB437;
+    width: 130px;
+    height: 44px;
+    border: none;
+    border-radius: 47px;
+    position: absolute;
+    left: 56%;
+    color: #364C65;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media  (max-width:786px) {
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        
+        gap: 4.1rem;
+
+    }
+    .hero input{
+        width: 250px;
+    }
+    .hero .inputbtn button{
+        position: static;
+    }
+    .hero .inputbtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .img1{
+        margin-left:30px ;
+    }
+}
